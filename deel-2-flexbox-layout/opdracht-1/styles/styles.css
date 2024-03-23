@@ -1,1 +1,28 @@
-/*Schrijf hier jouw CSS*/
+* {
+    max-width: 1920px;
+}
+header{
+    height: 150px;
+}
+main{
+    display: flex;
+    height: 799px;
+}
+article{
+    order: 1;
+    align-self: stretch;
+    flex-grow: 3;
+}
+nav{
+    order: 3;
+    align-self: stretch;
+    flex-grow: 1;
+}
+aside{
+    order: 2;
+    align-self: stretch;
+    flex-grow: 1;
+}
+footer{
+    height: 150px;
+}

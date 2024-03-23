@@ -1,1 +1,27 @@
-/*Schrijf hier jouw CSS*/
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+}
+header{
+    height: 200px;
+}
+article{
+    flex-grow: 3;
+    order: 2;
+}
+nav{
+    flex-grow: 1;
+    order: 1;
+}
+aside{
+    flex-grow: 1;
+    order: 3;
+}
+footer{
+    height: 200px;
+}

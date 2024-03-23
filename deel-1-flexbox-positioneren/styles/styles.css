@@ -1,1 +1,67 @@
-/*Schrijf hier jouw CSS*/
+.opdracht-1{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: stretch;
+    }
+}
+.opdracht-2{
+    ul {
+        display: flex;
+        justify-content: flex-start;
+       align-items: baseline;
+    }
+}
+.opdracht-3{
+    ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .centered{
+        align-self: center;
+    }
+    .bottom_right{
+        align-self: flex-end;
+    }
+}
+.opdracht-4{
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-content: space-between;
+    }
+}
+.opdracht-5{
+    ul{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .c1t{
+        order: 1;
+    }
+    .c1b{
+        order: 2;
+    }
+    .c2t{
+        order: 3;
+        align-self: center;
+    }
+    .c2b{
+        order: 4;
+        align-self: center;
+    }
+    .c3t{
+        order: 5;
+        align-self: flex-end;
+    }
+    .c3b{
+        order: 6;
+        align-self: flex-end;
+    }
+}

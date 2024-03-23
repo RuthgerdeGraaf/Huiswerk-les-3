@@ -1,1 +1,42 @@
-/*Schrijf hier jouw CSS*/
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+}
+.outer-col-1{
+    /*nav*/
+    flex-grow: 1;
+
+}
+.outer-col-2{
+    /*header, ariticle, footer, aside*/
+    display: flex;
+    flex-grow: 5;
+    align-content: stretch;
+    justify-content: center;
+    flex-direction: column;
+}
+.inner-row{
+    /*aricle, footer*/
+    display: flex;
+    flex-grow: 2;
+
+}
+.inner-col{
+    flex-grow: 3;
+/*    aricle*/
+
+}
+header{
+    height: 400px;
+}
+article{
+    height: 600px;
+}
+footer{
+    height: 400px;
+}
+aside{
+    width: 400px;
+}

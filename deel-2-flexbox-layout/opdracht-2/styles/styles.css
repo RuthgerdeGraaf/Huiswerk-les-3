@@ -1,1 +1,30 @@
-/*Schrijf hier jouw CSS*/
+*{
+    max-width: 1920px;
+}
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: stretch;
+    align-items: stretch;
+}
+.col-1{
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-self: stretch;
+    height: 1100px;
+}
+.col-2{
+    flex-grow: 4;
+    align-self: stretch;
+    flex-shrink: 0;
+}
+header{
+    height: 200px;
+}
+article{
+    height: 699px;
+}
+footer{
+    height: 200px;
+}

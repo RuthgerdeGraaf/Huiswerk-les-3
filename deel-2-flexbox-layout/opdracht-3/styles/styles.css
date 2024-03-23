@@ -1,1 +1,35 @@
-/*Schrijf hier jouw CSS*/
+* {
+    max-height: 1920px;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    align-content: stretch;
+    height: 1000px;
+}
+.col-1{
+    flex-grow: 1;
+}
+.col-2{
+    flex-grow: 2;
+    height: 1000px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    height: 600px;
+}
+article{
+    flex-grow: 3;
+}
+aside{
+    flex-grow: 1;
+}
+footer{
+    height: 200px;
+}
+header{
+    height: 200px;
+}
